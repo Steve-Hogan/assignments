@@ -1,0 +1,128 @@
+.background{
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fsky&psig=AOvVaw11hcis8ZVQnLt_9TlbhQF1&ust=1652365778708000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCLCY06zU1_cCFQAAAAAdAAAAABAD);
+    width: 1200px;
+    height: 2000px;
+}    
+
+#form{
+    text-align: center;
+    color: rgb(228, 94, 117);
+    width: 430px;
+    height: 584;
+    border-color: red;
+    border-style:dashed;
+    border-width: 10px;
+    position:absolute;
+    top: 250px;
+    left: 750px;
+}
+.test1{
+    color: blue;
+    background-color: aqua;
+    text-align: center;
+    width: 350px;
+    height: 300px;
+    margin-left: 100px;
+    border-radius: 35px;
+    border-color: rgb(5, 185, 5);
+    border-style:groove;
+
+}
+#test2{        
+    color: blue;
+    background-color: aqua;
+    text-align: center;
+    width: 350px;
+    height: 350px;
+    margin-left: 100px;
+    border-radius: 35px;
+    border-color: rgb(5, 185, 5);
+    border-style:groove;
+
+}
+#test4{
+    text-align: center;
+    background-color: rgb(10, 153, 129);
+    width: 490px;
+    height: 500px;
+    margin-left: 100px;
+    border-radius: 1000px;
+    border-color:gray;
+    border-style:solid;
+    border-width: 10px;
+    position:absolute;
+    top: 400px;
+    left: 10px;
+}
+
+#test6{
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 580px;
+    height: 80px;
+    border-radius: 50px;
+    border-color:rgb(236, 64, 64);
+    border-style:solid;
+    border-width: 10px;
+    position:absolute;
+    top: 1200px;
+    left: 500px;
+}
+.top_middle{
+    position:absolute;
+    top: 40px;
+    left: 250px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 580px;
+    height: 80px;
+    border-radius: 50px;
+    border-color:rgb(236, 64, 64);
+    border-style:solid;
+    border-width: 10px;
+}
+#top_left{
+    position:absolute;
+    top: 20px;
+    left: 20px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 390px;
+    height: 170px;
+    border-radius: 50px;
+    border-color:rgb(236, 64, 64);
+    border-style:solid;
+    border-width: 10px;
+}
+#top_right{
+    position:absolute;
+    top: 20px;
+    left: 1000px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 390px;
+    height: 170px;
+    border-radius: 50px;
+    border-color:rgb(236, 64, 64);
+    border-style:solid;
+    border-width: 10px;
+}
+.flex1{
+    display: flex;
+    position:absolute;
+    top: 1400px;
+    
+}
+.flex2{
+    display: flex;
+    position:absolute;
+    top: 1800px;
+}
+h2{
+    font-size: 35px;
+}
+
