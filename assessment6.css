@@ -1,0 +1,264 @@
+box {
+    margin-top: 20px;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-left: 20px;
+    text-align: left;
+    color: white;
+    width: 500px;
+    height: 200px;
+    background-position: absolute;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    margin-inline: auto;
+    position: relative;
+}
+.box {
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    width: 200px;
+    height: 200px;
+    background-position: absolute;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    position: relative;
+}
+.start{
+    font-size: 100px;
+    color: white;
+    position: absolute;
+    top: 210px;
+    left: 100px;
+}
+.main{
+    width: 650px;
+    color: white;
+    position: absolute;
+    top: 310px;
+    left: 100px;
+}
+button{
+    text-align: center;
+    padding: 10px;
+    width: 180px;
+    background-color: white;
+    border-radius: 30px;
+    position: relative;
+    top: 420px;
+    left: 100px;
+}
+ .container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./container.avif);
+    background-position: absolute;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}   
+.icon1{
+   width: 60px;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+}
+
+.topleft{
+    width: 270px;
+    font-size: large;
+    font-weight: bold;
+    color: aliceblue;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    cursor: pointer;
+    position: sticky;
+    left: 1300px;
+    top: 10px;
+}
+
+b{
+    font-weight: 50px;
+}
+.items{  
+    width: 500px;
+    height: 500px;
+    display: grid;
+    align-content: space-between;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    position: absolute;
+    top: 150px;
+    left: 850px;
+    transition-duration: 0.50s;
+
+}
+.item1{
+    text-align: center;
+    background-image: url(./image3.jpeg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    margin-inline:auto;
+    color: aliceblue;
+    border-radius: 10px;
+    cursor: pointer;
+    transition-duration: 0.50s;   
+}
+.item1:hover{
+    transform: translateY(-10px)
+}
+.item2:hover{
+    transform: translateY(-10px)
+}
+.item3:hover{
+    transform: translateY(-10px)
+}
+.item4:hover{
+    transform: translateY(-10px)
+}
+.item2{
+    text-align: center;
+    background-image: url(./neighborhood1.jpg);
+    background-size: 100%,100%;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    color: aliceblue;
+    border-radius: 10px;
+    cursor: pointer;
+    transition-duration: 0.50s;
+}
+.item3{
+    text-align: center;
+    background-image: url(./Epic_Pyramids.webp);
+    background-size: 100%,100%;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    color: aliceblue;
+    border-radius: 10px;
+    cursor: pointer;
+    transition-duration: 0.50s;
+}
+.item4{
+    text-align: center;
+    background-image: url(./Image2.jpeg);
+    background-size: 100%,100%;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    color: aliceblue;
+    border-radius: 10px;
+    cursor: pointer;
+    transition-duration: 0.50s;
+}
+@media (max-width:850px){
+    .container{
+        width: 100%;
+        height: 100vh;
+        background-image: url(./container.avif);
+        background-position: absolute;
+        background-size: 100% 100%;
+        background-repeat: repeat;
+    }
+    .container1{
+        width: 100%;
+        height: 100vh;
+        background-image: url(./container.avif);
+        background-position: absolute;
+        background-size: 100% 100%;
+        background-repeat: repeat;
+        position: absolute;
+        top: 700px;
+    }   
+    .topleft{
+        width: 270px;
+        font-size: large;
+        font-weight: bold;
+        color: aliceblue;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        justify-content: space-evenly;
+        cursor: pointer;
+        position: relative;
+        left: 450px;
+        top: 10px;
+    }
+    .items{ 
+        justify-content: center; 
+        width: 500px;
+        height: 450px;
+        display: grid;
+        align-content: space-between;
+        grid-template-columns: auto;
+        justify-content: space-between;
+        position: absolute;
+        top: 550px;
+        left: 150px;
+    }
+    .item1{
+        text-align: center;
+        background-image: url(./image3.jpeg);
+        background-size: cover;
+        width: 500px;
+        height: 200px;
+        margin: 10px;
+        color: aliceblue;
+        border-radius: 10px;
+        cursor: pointer;
+        
+    }
+    .item2{
+        text-align: center;
+        background-image: url(./neighborhood1.jpg);
+        background-size: cover;
+        width: 500px;
+        height: 200px;
+        margin: 10px;
+        color: aliceblue;
+        border-radius: 10px;
+        cursor: pointer;
+    
+    }
+    .item3{
+        text-align: center;
+        background-image: url(./Epic_Pyramids.webp);
+        background-size: cover;
+        width: 500px;
+        height: 200px;
+        margin: 10px;
+        color: aliceblue;
+        border-radius: 10px;
+        cursor: pointer;
+    
+    }
+    .item4{
+        text-align: center;
+        background-image: url(./Image2.jpeg);
+        background-size: 100%,100%;
+        width: 500px;
+        height: 200px;
+        margin: 10px;
+        color: aliceblue;
+        border-radius: 10px;
+        cursor: pointer;
+    
+    }
+    .item1:hover{
+        transform: translateY(-10px)
+    }
+    .item2:hover{
+        transform: translateY(-10px)
+    }
+    .item3:hover{
+        transform: translateY(-10px)
+    }
+    .item4:hover{
+        transform: translateY(-10px)
+    }
+}
+
