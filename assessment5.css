@@ -1,0 +1,303 @@
+/*First page*/
+
+.container{
+    background-color: yellow;
+}
+    
+
+.heading{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;   
+}
+
+.items{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+}
+.item{
+    height: 150px;
+    width: 150px;
+    margin: 40px;
+    padding: 10px;
+    
+}
+.item1{
+    background-color: blue;
+    animation:alternate-reverse steve 4s infinite 1s;
+}
+@keyframes steve {
+    from{
+         transform:skewX(20deg);
+    }
+    to{
+        transform:skewX(-20deg);
+    }
+        }
+        .item2{
+            background-color: gray;
+            animation:alternate-reverse steve1 2s infinite 0s;
+        
+        }
+        @keyframes steve1{
+            from{
+                 transform:skewY(20deg);
+            }
+            to{
+                transform:skewY(-20deg);
+            }
+        }
+            .item3{
+                background-color: #3d7e6f;
+                animation:normal steve2 3s infinite 0s;
+            }
+        
+            @keyframes steve2{
+                from{
+                    transform: rotateZ(0deg);
+                }
+                to{
+                    transform: rotateZ(360deg);
+                }
+            }
+            .item4{
+                background-color: #3d7e6f;
+                border: 3px solid #10765e;
+                animation:alternate steve3 4s infinite 0s;
+            }
+            @keyframes steve3{
+                from{
+                    transform: rotateX(60deg);
+                }
+                to{
+                    transform: rotateX(-60deg);
+                }
+            }
+            .item5{
+                background-color: brown;
+                border: 3px solid #752b2b;
+                animation:alternate steve4 4s infinite 0s;
+            }
+            @keyframes steve4{
+                from{
+                    transform: rotateY(70deg);
+                }
+                to{
+                     transform: rotateY(-70deg);
+                }   
+            }.item6{
+                background-color:green;
+                border: 3px solid #1f712b;
+                animation: alternate steve5 2s infinite 0s;
+            }
+            @keyframes steve5{
+                from{
+                    transform: rotateZ(10deg);
+                }
+                to{
+                    transform: rotateZ(-90deg);
+                }
+            }
+            .nextpage{
+                margin-top: 30px;
+                display: block;
+               text-align: center;
+               font-weight: bold;
+               text-decoration: underline;
+               font-size: xx-large;
+            }
+
+
+
+
+
+
+
+
+
+
+
+/*Second page*/
+
+.grid-container{
+    display: grid;
+    grid-template-columns:auto;
+    grid-template-rows: auto;
+    justify-content: center;
+
+}
+.grid{
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    background-color: yellowgreen;
+    transition: 2s all linear 1s;
+}
+.grid1:hover{
+    width: 400px;
+}
+.grid2:hover{
+    width: 400px;
+    height: 400px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Third page*/
+.bgcolor{
+    background: url(./sky.jpg);
+    height: 84vh;
+    width: 94%;
+    padding: 20px;
+    border-left: 30px solid orange;
+    border-top:30px solid white;
+    border-bottom:30px solid white;
+    border-right: 30px solid green;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.heading1{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.sun{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    right: 10px;
+    top: 80px;
+    animation:sun normal 500s linear infinite 1s;
+}
+@keyframes sun {
+  100%{
+      transform: translateX(-1000px);
+  }
+}
+
+.city{
+        height:250px;
+        width: 500%;
+        background-image: url(./city.png);
+        z-index:1;
+        position: absolute;
+        bottom: 200px;
+        animation:bangalore 25s linear infinite ;
+        background-repeat: repeat;
+        display: block;
+    }
+    @keyframes bangalore{
+        100%{
+            transform: translateX(-1500px);
+        }
+    } 
+
+    .road{
+        height:200px;
+        width: 1000%;
+        background-image: url(./road.jpg);
+        position: absolute;
+        bottom: 0px;
+        z-index: 1;
+        animation: cd 7s linear infinite;
+        }
+        @keyframes cd {
+            100%{
+            transform:translateX(-2000px);
+            }
+    }
+    .flag img {
+        height: 130px;
+        width: 130px;
+        position: absolute;
+        bottom: 175px;
+        left: 850px;
+        z-index: 2;
+        animation:alternate flag 1s linear infinite ;
+    }
+    @media (max-width:750px){
+        .flag img{
+            position: absolute;
+            top: 355px;
+            left: 410px;
+        }
+    }
+    @keyframes flag {
+        100%{
+            transform: skewY(-50deg);
+        }
+    }
+
+    .car {
+        width: 400px;
+        position: absolute;
+        left:50%;
+        transform: translateX(-50%);
+        bottom: 100px;
+        z-index: 1;
+    }
+    .car img {
+        width: 100%;
+        animation:car alternate 1s linear infinite;
+    }
+    @keyframes car {
+        0%{
+            transform: translateY(-4px);
+        }
+        50%{
+            transform:translateY(0px);
+        }
+        100%{
+            transform:translateY(-4px);
+        }
+    }
+    .wheels img {
+        width:72px;
+        height: 72px;
+        animation:wheels 0.6s infinite linear ;
+    }
+    .wheels{
+       position: absolute;
+       left: 50%;
+       transform: translateX(-50%);
+       bottom:185px;
+       z-index: 2;
+    }
+    @keyframes wheels {
+        100%{
+            transform: rotateZ(360deg);
+        }
+    }
+    .frontwheel{
+        position: absolute;
+        left: 80px;
+    }
+    .backwheel{
+        position: absolute;
+        left: -165px;
+    }
+    .heading2{
+        color: white;
+        font-weight: bold;
+        border:  solid pink;
+        background-color: black;
+        border-radius: 20px;
+        padding: 5px;
+        position: absolute;
+        top: 150px;
+        left: 70px;
+    }
